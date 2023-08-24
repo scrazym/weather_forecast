@@ -51,9 +51,9 @@ Check `packages.json` for details
 
 ## 📄 Todos
 
-- [ ] Styled-components
+- [ ] Add section for surfing
 - [ ] Convert the entire project to TypeScript
-- [ ] Dark/Light Mode
+- [ ] Animation for project
 
 <br/>
 Thank You ☺
