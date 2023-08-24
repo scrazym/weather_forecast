@@ -51,7 +51,7 @@ Check `packages.json` for details
 
 ## 📄 Todos
 
-- [ ] Add section for surfing
+- [ ] Authorization 
 - [ ] Convert the entire project to TypeScript
 - [ ] Animation for project
 
