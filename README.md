@@ -1,46 +1,59 @@
-# Getting Started with Create React App
+# Weather foewcast APP
+<img width="1024" alt="Screenshoot weather forecast app" src="https://github.com/scrazym/weather_forecast/assets/76552079/06bd97e0-abd7-4839-8129-6d423688c788">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## With The Weather forecast user can search locations by city name and observe the weather for the next 7 days and 24 hours interval. 
+The app is developed using React.js and material-UI, styled components.
 
-In the project directory, you can run:
+<br />
+The app is developed using React.js and styled components.
 
-### `npm start`
+<br/>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 💻 Live Demo:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+In progress
 
-### `npm test`
+<br/>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## ✨ Getting Started
 
-### `npm run build`
+- Make sure you already have `Node.js` and `npm` installed in your system.
+- You need an API key from [weather api](https://www.weatherapi.com/). After creating an account, [copy your key](https://www.weatherapi.com/my/).
+- Then, under the `src` directory, go to `api/consts/const` and replace `WEATHERAPI_KEY` with your Weather API Key.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<br/>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## ⚡ Install
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Clone the repository:
 
-### `npm run eject`
+```bash
+git clone https://github.com/scrazym/weather_forecast.git
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Install the packages using the command `npm install`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+<br/>
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## 📙 Used libraries
 
-## Learn More
+- `react-js`
+- `material-ui`
+- `react-router-dom`
+- `axios`
+- `styled cpmponents`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Check `packages.json` for details
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<br/>
+
+## 📄 Todos
+
+- [ ] Styled-components
+- [ ] Convert the entire project to TypeScript
+- [ ] Dark/Light Mode
+
+<br/>
+Thank You ☺
