@@ -33,7 +33,7 @@ export function CreateLoginPage() {
     const form = e.target;
     const user = form.name.value;
     const pass = form.password.value;
-    logIn(user, pass, () => navigate(`/`, { replace: true }));
+    logIn(user, pass, () => navigate(`/weather_forecast`, { replace: true }));
   };
   function handleChange(e: React.ChangeEvent<HTMLInputElement>) {
     switch (e.target.id) {

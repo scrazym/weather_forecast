@@ -41,7 +41,7 @@ function App() {
         <Router>
           <Header />
           <Routes>
-            <Route path="/" element={<MainContentWraper />} />
+            <Route path="/weather_forecast" element={<MainContentWraper />} />
             <Route path="/login" element={<CreateLoginPage />} />
             <Route path="/signup" element={<Basic />} />
             <Route path="*" element={<PageNotFound />} />
