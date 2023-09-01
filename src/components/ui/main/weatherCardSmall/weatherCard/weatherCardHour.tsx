@@ -7,9 +7,10 @@ import { currentDayFromApi } from "components/shared/clock/dayFromApi";
 import { Container } from "components/shared/container";
 import { StyledImgWrapper } from "components/shared/imageWrapperStyled";
 import { StyledTextP } from "components/shared/paragraph/styledP";
+import { StyledIconWrapper } from "components/shared/wrapper/ConditionIconWrapper";
 import { StyledWrapperDiv } from "components/shared/wrapper/StyledWrapper";
 
-import { responsive } from "../slider/slider";
+import { responsive } from "../weatherCard/slider/slider";
 
 export const WeatherCard = (props: any) => {
   const dataFromRedux = useAppSelector((state) => state);
@@ -19,7 +20,7 @@ export const WeatherCard = (props: any) => {
 
   return (
     <Container>
-      <Carousel
+      {/* <Carousel
         ssr
         responsive={responsive}
         additionalTransfrom={0}
@@ -64,11 +65,11 @@ export const WeatherCard = (props: any) => {
                 themeStyle={styles}
                 text={currentDayFromApi(item.date)}
               ></StyledTextP>
-              <StyledImgWrapper
+              <StyledIconWrapper
                 width={"70px"}
                 height={"70px"}
                 url={item.day.condition.icon}
-              ></StyledImgWrapper>
+              ></StyledIconWrapper>
               <StyledTextP
                 themeStyle={styles}
                 text={`${item.day.avgtemp_c} \u00b0C`}
@@ -76,7 +77,7 @@ export const WeatherCard = (props: any) => {
             </StyledWrapperDiv>
           );
         })}
-      </Carousel>
+      </Carousel> */}
     </Container>
   );
 };

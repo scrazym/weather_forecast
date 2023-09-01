@@ -6,7 +6,7 @@ import { StyledTextH2 } from "./h2Main";
 
 export const MainTempratureText = styled(StyledTextH2)`
   font-size: ${TextFz.LARGE};
-  @media (max-width: 968px) {
+  @media (max-width: 978px) {
     font-size: ${TextFz.XS};
   }
   @media (max-width: 568px) {

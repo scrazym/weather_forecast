@@ -1,4 +1,5 @@
 import { createAsyncThunk, createSlice, PayloadAction } from "@reduxjs/toolkit";
+import { WEATHERAPI_KEY } from "api/consts/const";
 
 import Api from "../../api/axios";
 
@@ -68,7 +69,7 @@ export const fetchWeatherCurrent: any = createAsyncThunk<void, void>(
   async (location, { rejectWithValue, dispatch }) => {
     try {
       const result = await Api.getData(
-        `/current.json?key=bbf4524377fd488ebfd122939232308&q=${location}`
+        `/current.json?key=${WEATHERAPI_KEY}&q=${location}`
       );
       dispatch(addCurrentWeather(result.info));
     } catch (error: any) {
@@ -81,7 +82,7 @@ export const fetchWeatherWeek: any = createAsyncThunk<void, void>(
   async (location, { rejectWithValue, dispatch }) => {
     try {
       const result = await Api.getData(
-        `/forecast.json?key=bbf4524377fd488ebfd122939232308&q=${location}&days=7`
+        `/forecast.json?key=${WEATHERAPI_KEY}&q=${location}&days=7`
       );
       dispatch(addOneDayWeather(result.info));
     } catch (error: any) {
@@ -95,7 +96,7 @@ export const fetchWeatherHour: any = createAsyncThunk<void, any>(
   async (location, { rejectWithValue, dispatch }) => {
     try {
       const result = await Api.getData(
-        `/future.json?key=bbf4524377fd488ebfd122939232308&q=${location}&dt=2023-09-23`
+        `/future.json?key=${WEATHERAPI_KEY}&q=${location}&dt=2023-09-23`
       );
       dispatch(addHourWeather(result.info));
     } catch (error: any) {

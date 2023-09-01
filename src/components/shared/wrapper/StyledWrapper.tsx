@@ -1,6 +1,6 @@
 import styled from "styled-components";
 interface IWrapperProps {
-  width: string;
+  width?: string;
   height?: string;
   display?: string;
   flexDirection?: string;

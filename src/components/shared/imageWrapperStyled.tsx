@@ -13,7 +13,7 @@ export const ImgWrapper = styled.div`
   height: ${ImgWrapperSize.LARGE};
   padding: ${(props: ImageWrapperProps) => props.padding};
   background-image: url(${(props: ImageWrapperProps) => props.url});
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   @media (max-width: 768px) {

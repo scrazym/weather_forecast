@@ -16,18 +16,15 @@ export interface H2Style {
 }
 export const StyledH2 = styled.h2`
   font-size: ${(props: H2Style) => props.fontSize} || ${TextFz.BIG};
-  line-height: 32px;
   margin: 0;
   color: ${(props: H2Style) => props.themeStyle?.textColor};
   font-weight: ${(props: H2Style) => props.fontWeight} || ${FontWeit.LARGE};
   @media (max-width: 978px) {
     font-size: ${TextFz.MEDIUM};
-    line-height: 24px;
     font-weight: ${FontWeit.MEDIUM};
   }
   @media (max-width: 568px) {
     font-size: ${TextFz.SMALL};
-    line-height: 16px;
     font-weight: ${FontWeit.SMALL};
   }
 `;

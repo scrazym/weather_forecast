@@ -9,6 +9,7 @@ import {
 
 import { Footer } from "components/ui/footer/footer";
 import Basic from "components/ui/FormikSignUp/SignUp";
+import { Header } from "components/ui/header/header";
 import { CreateLoginPage } from "components/ui/loginForm/LoginPage";
 import { MainContentWraper } from "components/ui/main/weatheNotLogin/mainContentWrapper";
 import { ContainerBgWrapper } from "components/ui/main/weatherBg";
@@ -38,6 +39,7 @@ function App() {
     <div className="App">
       <ContainerBgWrapper themeStyle={styles}>
         <Router>
+          <Header />
           <Routes>
             <Route path="/" element={<MainContentWraper />} />
             <Route path="/login" element={<CreateLoginPage />} />

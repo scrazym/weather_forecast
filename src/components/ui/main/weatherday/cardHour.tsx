@@ -6,13 +6,13 @@ import { useAppSelector } from "reduxFolder";
 import { currentHourFromApi } from "components/shared/clock/getHour";
 import { Container } from "components/shared/container";
 import { H2Style } from "components/shared/h2/h2Main";
-import { StyledImgWrapper } from "components/shared/imageWrapperStyled";
 import { StyledTextP } from "components/shared/paragraph/styledP";
+import { StyledIconWrapper } from "components/shared/wrapper/ConditionIconWrapper";
 import { StyledWrapperDiv } from "components/shared/wrapper/StyledWrapper";
 
-import { responsive } from "../weatherCardSmall/slider/slider";
+import { responsive } from "../weatherCardSmall/weatherCard/slider/slider";
 
-export const WeatherCardHors = (props: H2Style) => {
+export const WeatherCardHours = (props: H2Style) => {
   const dataFromRedux = useAppSelector((state) => state);
   const { weatherHour } = dataFromRedux;
   const { forecast }: any = weatherHour;
@@ -49,6 +49,7 @@ export const WeatherCardHors = (props: H2Style) => {
               width={"120px"}
               height={"150px"}
               display={"flex"}
+              flexDirection={"column"}
               justifyContent={"space-around"}
               alignItems={"center"}
               gap={"5px"}
@@ -62,11 +63,11 @@ export const WeatherCardHors = (props: H2Style) => {
                 themeStyle={styles}
                 text={currentHourFromApi(item.time)}
               ></StyledTextP>
-              <StyledImgWrapper
+              <StyledIconWrapper
                 width={"70px"}
                 height={"70px"}
                 url={item.condition.icon}
-              ></StyledImgWrapper>
+              ></StyledIconWrapper>
               <StyledTextP
                 themeStyle={styles}
                 text={`${item.temp_c} \u00b0C`}

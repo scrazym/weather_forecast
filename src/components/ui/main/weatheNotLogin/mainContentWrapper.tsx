@@ -18,11 +18,10 @@ export const MainContentWraperS = styled.div`
   margin-top: 40px;
   padding: 25px 45px;
   max-width: 1088px;
-  min-height: 500px;
   background-color: rgba(255, 255, 255, 0.25);
-  -webkit-box-shadow: 15px 16px 12px 0px rgba(34, 60, 80, 0.6);
-  -moz-box-shadow: 15px 16px 12px 0px rgba(34, 60, 80, 0.6);
-  box-shadow: 15px 16px 12px 0px rgba(34, 60, 80, 0.6);
+  -webkit-box-shadow: 12px 12px 25px 2px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 12px 12px 25px 2px rgba(0, 0, 0, 0.25);
+  box-shadow: 12px 12px 25px 2px rgba(0, 0, 0, 0.25);
   border-radius: 20px;
   margin-bottom: 20px;
   position: relative;
@@ -38,7 +37,6 @@ export const MainContentWraperS = styled.div`
     justify-content: flex-start;
     align-items: flex-start;
     text-align: left;
-    min-height: 100px;
   }
 `;
 
@@ -47,7 +45,6 @@ export const MainContentWraper = () => {
 
   return (
     <>
-      <Header />
       <Tabs />
       <MainContentWraperS>
         <MainTitleWrapper></MainTitleWrapper>

@@ -7,12 +7,11 @@ import { BtnMoreInfo } from "components/shared/btns/btnMoreInfo";
 import { currentDayFromApi } from "components/shared/clock/dayFromApi";
 import { Container } from "components/shared/container";
 import { H2Style } from "components/shared/h2/h2Main";
-import { StyledImgWrapper } from "components/shared/imageWrapperStyled";
 import { StyledTextP } from "components/shared/paragraph/styledP";
 import { StyledIconWrapper } from "components/shared/wrapper/ConditionIconWrapper";
 import { StyledWrapperDiv } from "components/shared/wrapper/StyledWrapper";
 
-import { responsive } from "../slider/slider";
+import { responsive } from "../weatherCard/slider/slider";
 
 export const WeatherCard = (props: H2Style) => {
   const dataFromRedux = useAppSelector((state) => state);

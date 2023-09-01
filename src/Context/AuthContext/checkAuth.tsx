@@ -1,4 +1,4 @@
-import { Navigate, useParams } from "react-router-dom";
+import { Navigate } from "react-router-dom";
 
 import { useAuth } from "./index";
 
@@ -11,7 +11,7 @@ export const CheckAuth = ({ children }: ICheckAuthProps) => {
   if (!authInfo.user) {
     return (
       <div>
-        <Navigate to="" replace />
+        <Navigate to="/login" replace />
       </div>
     );
   }
