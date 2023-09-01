@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/weather_forecast/static/css/main.c70162ae.css",
-    "main.js": "/weather_forecast/static/js/main.a452cacb.js",
-    "static/media/bgDark.png": "/weather_forecast/static/media/bgDark.1d307edb5757a86d3870.png",
-    "static/media/formBgGirl.png": "/weather_forecast/static/media/formBgGirl.acfa13b24e3e59eb7a3e.png",
-    "static/media/bgLight.png": "/weather_forecast/static/media/bgLight.4edca9cd83998b802ebf.png",
-    "static/media/Illustration.png": "/weather_forecast/static/media/Illustration.e50879c5923a09d1f398.png",
-    "static/media/cactus.png": "/weather_forecast/static/media/cactus.220deb001bbdfcf961d6.png",
-    "static/media/revicons.eot": "/weather_forecast/static/media/revicons.a77de540a38981833f9e.eot",
-    "static/media/revicons.ttf": "/weather_forecast/static/media/revicons.57fd05d4ae650374c8de.ttf",
-    "static/media/revicons.woff": "/weather_forecast/static/media/revicons.e8746a624ed098489406.woff",
-    "index.html": "/weather_forecast/index.html",
-    "main.c70162ae.css.map": "/weather_forecast/static/css/main.c70162ae.css.map",
-    "main.a452cacb.js.map": "/weather_forecast/static/js/main.a452cacb.js.map"
+    "main.css": "/static/css/main.7c65c200.css",
+    "main.js": "/static/js/main.a6eb4cf2.js",
+    "static/media/bgDark.png": "/static/media/bgDark.1d307edb5757a86d3870.png",
+    "static/media/formBgGirl.png": "/static/media/formBgGirl.acfa13b24e3e59eb7a3e.png",
+    "static/media/bgLight.png": "/static/media/bgLight.4edca9cd83998b802ebf.png",
+    "static/media/Illustration.png": "/static/media/Illustration.e50879c5923a09d1f398.png",
+    "static/media/cactus.png": "/static/media/cactus.220deb001bbdfcf961d6.png",
+    "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
+    "index.html": "/index.html",
+    "main.7c65c200.css.map": "/static/css/main.7c65c200.css.map",
+    "main.a6eb4cf2.js.map": "/static/js/main.a6eb4cf2.js.map"
   },
   "entrypoints": [
-    "static/css/main.c70162ae.css",
-    "static/js/main.a452cacb.js"
+    "static/css/main.7c65c200.css",
+    "static/js/main.a6eb4cf2.js"
   ]
 }
