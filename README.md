@@ -1,8 +1,9 @@
 # Weather foewcast APP
+
 <img width="1024" alt="Screenshoot weather forecast app" src="https://github.com/scrazym/weather_forecast/assets/76552079/06bd97e0-abd7-4839-8129-6d423688c788">
 
+## With The Weather forecast user can search locations by city name and observe the weather for the next 7 days and 24 hours interval.
 
-## With The Weather forecast user can search locations by city name and observe the weather for the next 7 days and 24 hours interval. 
 The app is developed using React.js and material-UI, styled components.
 
 <br />
@@ -12,7 +13,7 @@ The app is developed using React.js and styled components.
 
 ## 💻 Live Demo:
 
-In progress
+You can see live demo on [Github-pages](https://scrazym.github.io/weather_forecast/)
 
 <br/>
 
@@ -51,7 +52,7 @@ Check `packages.json` for details
 
 ## 📄 Todos
 
-- [ ] Authorization 
+- [ ] Authorization
 - [ ] Convert the entire project to TypeScript
 - [ ] Animation for project
 

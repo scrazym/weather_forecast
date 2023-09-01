@@ -12,7 +12,7 @@ const BtnReturnMain = styled(StyledButton)`
 
 export const BtnReturn = (props: H2Style) => {
   return (
-    <NavLink to="/">
+    <NavLink to="/weather_forecast">
       <BtnReturnMain {...props}>Return main</BtnReturnMain>;
     </NavLink>
   );
