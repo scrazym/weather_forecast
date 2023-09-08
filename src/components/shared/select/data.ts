@@ -66,6 +66,7 @@ export const stateOptions: readonly StateOption[] = [
   { value: "BY", label: "Minsk" },
   { value: "BY", label: "Mogilev" },
   { value: "IT", label: "Rome" },
+  { value: "BY", label: "Grodno" },
 ];
 
 export interface GroupedOption {
