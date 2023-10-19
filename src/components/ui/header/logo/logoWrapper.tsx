@@ -9,6 +9,8 @@ import logo from "../../../../assets/icons/logo.png";
 const LogoWrapper = styled.div`
   display: flex;
   align-items: center;
+  @media (max-width: 421px) {
+  }
 `;
 const LogoTextWrapper = styled.h2`
   display: block;

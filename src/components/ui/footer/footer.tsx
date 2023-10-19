@@ -28,6 +28,9 @@ const StyledFooter = styled.footer`
     gap: 20px;
     align-items: center;
   }
+  @media (max-width: 768px) {
+    gap: 5px;
+  }
 `;
 export const Footer = () => {
   const { styles } = useContext(ThemeContext);

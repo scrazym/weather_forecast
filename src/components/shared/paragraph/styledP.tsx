@@ -9,6 +9,9 @@ export const StyledP = styled.p`
   color: ${(props: { themeStyle: { textColor: string } }) =>
     props.themeStyle?.textColor};
   font-weight: ${(props: H2Style) => props.fontWeight};
+  @media (max-width: 465px) {
+    font-size: 14px;
+  }
 `;
 
 export const StyledTextP = (props: H2Style) => {

@@ -25,7 +25,7 @@ export const Select = () => {
     dispatch(changeName(inputValue.label));
   };
   return (
-    <StyledWrapperDiv width={"35%"} zIndex={10}>
+    <StyledWrapperDiv width={"35%"} width320="100%" zIndex={10}>
       <AsyncSelect
         cacheOptions
         defaultOptions

@@ -1,6 +1,7 @@
 import styled from "styled-components";
 interface IWrapperProps {
   width?: string;
+  width320?: string;
   height?: string;
   display?: string;
   flexdirection?: string;
@@ -16,7 +17,7 @@ interface IWrapperProps {
 }
 export const StyledWrapper = styled.div`
   display: ${(props: IWrapperProps) => props.display};
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   flex-direction: ${(props: IWrapperProps) => props.flexdirection};
   justify-content: ${(props: IWrapperProps) => props.justifycontent};
   align-items: ${(props: IWrapperProps) => props.alignitems};
@@ -31,6 +32,7 @@ export const StyledWrapper = styled.div`
   @media (max-width: 768px) {
     flex-wrap: nowrap;
     gap: 4px;
+    width: ${(props: IWrapperProps) => props.width320};
   }
 `;
 

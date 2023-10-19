@@ -20,8 +20,9 @@ export const WeatherCard = (props: H2Style) => {
   const { styles } = useContext(ThemeContext);
 
   return (
-    <Container>
-      <h1>d</h1>
+    <>
+      {/* // <Container> */}
+      {/* <h1>d</h1> */}
       <Carousel
         ssr
         responsive={responsive}
@@ -38,6 +39,7 @@ export const WeatherCard = (props: H2Style) => {
         itemClass=""
         keyBoardControl
         minimumTouchDrag={80}
+        swipeable={true}
         pauseOnHover
         renderArrowsWhenDisabled={false}
         renderButtonGroupOutside={false}
@@ -78,6 +80,7 @@ export const WeatherCard = (props: H2Style) => {
           );
         })}
       </Carousel>
-    </Container>
+      {/* // </Container> */}
+    </>
   );
 };

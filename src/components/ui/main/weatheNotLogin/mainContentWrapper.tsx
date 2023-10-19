@@ -16,6 +16,7 @@ import { MainDateWrapper } from "./Time";
 export const MainContentWraperS = styled.div`
   margin: 0 auto;
   margin-top: 40px;
+  margin-bottom: 20px;
   padding: 25px 45px;
   max-width: 1088px;
   background-color: rgba(255, 255, 255, 0.25);
@@ -23,7 +24,6 @@ export const MainContentWraperS = styled.div`
   -moz-box-shadow: 12px 12px 25px 2px rgba(0, 0, 0, 0.25);
   box-shadow: 12px 12px 25px 2px rgba(0, 0, 0, 0.25);
   border-radius: 20px;
-  margin-bottom: 20px;
   position: relative;
   z-index: 1;
   display: flex;
@@ -32,6 +32,7 @@ export const MainContentWraperS = styled.div`
   align-items: flex-start;
   justify-content: space-between;
   @media (max-width: 768px) {
+    width: 100%;
     margin-top: 1px;
     padding: 2px;
     justify-content: flex-start;

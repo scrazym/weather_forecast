@@ -17,7 +17,7 @@ export const Contacts = () => {
         lineHeight="10px"
         text="Contact Me"
       ></StyledTextH2>
-      <StyledWrapperDiv width="30%" display="flex" flexdirection="column">
+      <StyledWrapperDiv width="30%" display="flex">
         <UserLink text={"Facebook"} url="https://facebook.com/mil.grof">
           <FaFacebook />
         </UserLink>

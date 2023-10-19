@@ -31,7 +31,7 @@ const HeaderDiv = styled.header`
     gap: 20px;
   }
   @media (max-width: 421px) {
-    padding: 5px;
+    padding: 20px 5px 5px 5px;
     gap: 7px;
   }
 `;
