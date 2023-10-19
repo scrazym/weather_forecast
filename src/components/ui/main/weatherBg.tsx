@@ -3,7 +3,10 @@ import styled from "styled-components";
 
 export const ContainerBg = styled.div`
   width: 100%;
-  height: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   padding: 0px 20px 60px 20px;
   background: ${(props: { themeStyle: { background: string } }) =>
     props.themeStyle?.background};
