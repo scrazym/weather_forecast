@@ -96,7 +96,7 @@ export const fetchWeatherHour: any = createAsyncThunk<void, any>(
   async (location, { rejectWithValue, dispatch }) => {
     try {
       const result = await Api.getData(
-        `/future.json?key=${WEATHERAPI_KEY}&q=${location}&dt=2023-09-23`
+        `/future.json?key=${WEATHERAPI_KEY}&q=${location}&dt=2023-11-18`
       );
       dispatch(addHourWeather(result.info));
     } catch (error: any) {
