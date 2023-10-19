@@ -34,7 +34,7 @@ export const ButtonLogIn = ({
   const { logOut } = authInfo;
   return (
     <>
-      <NavLink to={!authInfo.user ? "/login" : "/"}>
+      <NavLink to={!authInfo.user ? "/login" : "/weather_forecast"}>
         <StyledButton
           themeStyle={themeStyle}
           onClick={authInfo.user ? logOut : null}

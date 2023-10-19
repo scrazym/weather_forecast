@@ -19,63 +19,68 @@ export const WeatherCardHours = (props: H2Style) => {
 
   const { styles } = useContext(ThemeContext);
 
+  console.log(weatherHour, "from cardHour");
+
   return (
-    <Container>
-      <Carousel
-        ssr
-        responsive={responsive}
-        additionalTransfrom={0}
-        arrows
-        autoPlaySpeed={3000}
-        centerMode={true}
-        className=""
-        containerClass="container-with-dots"
-        dotListClass=""
-        draggable
-        focusOnSelect={false}
-        infinite
-        itemClass=""
-        keyBoardControl
-        minimumTouchDrag={80}
-        pauseOnHover
-        renderArrowsWhenDisabled={false}
-        renderButtonGroupOutside={false}
-        renderDotsOutside={true}
-      >
-        {forecast.forecastday[0].hour.map((item: any) => {
-          return (
-            <StyledWrapperDiv
-              {...props}
-              width={"120px"}
-              height={"150px"}
-              display={"flex"}
-              flexDirection={"column"}
-              justifyContent={"space-around"}
-              alignItems={"center"}
-              gap={"5px"}
-              background={`rgba(255, 255, 255, 0.45)`}
-              borderRadius={"7px"}
-              padding={"5px"}
-              key={1}
-            >
-              <StyledTextP
+    <>
+      <Container>
+        <h2> l cks</h2>
+        <Carousel
+          ssr
+          responsive={responsive}
+          additionalTransfrom={0}
+          arrows
+          autoPlaySpeed={3000}
+          centerMode={true}
+          className=""
+          containerClass="container-with-dots"
+          dotListClass=""
+          draggable
+          focusOnSelect={false}
+          infinite
+          itemClass=""
+          keyBoardControl
+          minimumTouchDrag={80}
+          pauseOnHover
+          renderArrowsWhenDisabled={false}
+          renderButtonGroupOutside={false}
+          renderDotsOutside={true}
+        >
+          {forecast.forecastday[0].hour.map((item: any) => {
+            return (
+              <StyledWrapperDiv
                 {...props}
-                themeStyle={styles}
-                text={currentHourFromApi(item.time)}
-              ></StyledTextP>
-              <StyledIconWrapper
-                width={"70px"}
-                height={"70px"}
-                url={item.condition.icon}
-              ></StyledIconWrapper>
-              <StyledTextP
-                themeStyle={styles}
-                text={`${item.temp_c} \u00b0C`}
-              ></StyledTextP>
-            </StyledWrapperDiv>
-          );
-        })}
-      </Carousel>
-    </Container>
+                width={"120px"}
+                height={"150px"}
+                display={"flex"}
+                flexdirection={"column"}
+                justifycontent={"space-around"}
+                alignitems={"center"}
+                gap={"5px"}
+                background={`rgba(255, 255, 255, 0.45)`}
+                borderradius={"7px"}
+                padding={"5px"}
+                key={1}
+              >
+                <StyledTextP
+                  {...props}
+                  themeStyle={styles}
+                  text={currentHourFromApi(item.time)}
+                ></StyledTextP>
+                <StyledIconWrapper
+                  width={"70px"}
+                  height={"70px"}
+                  url={item.condition.icon}
+                ></StyledIconWrapper>
+                <StyledTextP
+                  themeStyle={styles}
+                  text={`${item.temp_c} \u00b0C`}
+                ></StyledTextP>
+              </StyledWrapperDiv>
+            );
+          })}
+        </Carousel>
+      </Container>
+    </>
   );
 };

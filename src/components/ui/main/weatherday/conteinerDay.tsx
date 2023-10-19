@@ -10,6 +10,7 @@ import { MoreContentFullDescr } from "./descrMore";
 
 const ContainerMoreInfo = styled(MainContentWraperS)`
   flex-wrap: wrap;
+  height: 75%;
 `;
 
 export const DayContentWraper = () => {

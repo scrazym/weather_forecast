@@ -6,8 +6,8 @@ export const MoreContentFullDescr = () => {
   return (
     <StyledWrapperDiv
       display={"flex"}
-      justifyContent={"space-between"}
-      alignItems={"center"}
+      justifycontent={"space-between"}
+      alignitems={"center"}
       gap={"20px"}
       width={"100%"}
     >

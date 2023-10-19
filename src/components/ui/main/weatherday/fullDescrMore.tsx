@@ -19,9 +19,9 @@ export const FullDescrTextMore = () => {
     <StyledWrapperDiv
       width={"30%"}
       display={"flex"}
-      flexDirection={"column"}
-      justifyContent={"space-between"}
-      alignItems={"flex-start"}
+      flexdirection={"column"}
+      justifycontent={"space-between"}
+      alignitems={"flex-start"}
       gap={"5px"}
     >
       <StyledTextP
@@ -33,8 +33,8 @@ export const FullDescrTextMore = () => {
       <StyledWrapperDiv
         width={"100%"}
         display={"flex"}
-        justifyContent={"left"}
-        alignItems={"center"}
+        justifycontent={"left"}
+        alignitems={"center"}
         gap={"25px"}
       >
         <StyledImgWrapper
@@ -52,8 +52,8 @@ export const FullDescrTextMore = () => {
       <StyledWrapperDiv
         width={"100%"}
         display={"flex"}
-        justifyContent={"left"}
-        alignItems={"center"}
+        justifycontent={"left"}
+        alignitems={"center"}
         gap={"25px"}
       >
         <StyledImgWrapper
@@ -71,8 +71,8 @@ export const FullDescrTextMore = () => {
       <StyledWrapperDiv
         width={"100%"}
         display={"flex"}
-        justifyContent={"left"}
-        alignItems={"center"}
+        justifycontent={"left"}
+        alignitems={"center"}
         gap={"25px"}
       >
         <StyledImgWrapper

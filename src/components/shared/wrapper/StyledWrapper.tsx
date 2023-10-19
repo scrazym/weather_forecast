@@ -3,12 +3,12 @@ interface IWrapperProps {
   width?: string;
   height?: string;
   display?: string;
-  flexDirection?: string;
-  justifyContent?: string;
-  alignItems?: string;
+  flexdirection?: string;
+  justifycontent?: string;
+  alignitems?: string;
   gap?: string;
   background?: string;
-  borderRadius?: string;
+  borderradius?: string;
   border?: string;
   padding?: string;
   children?: React.ReactNode;
@@ -17,15 +17,15 @@ interface IWrapperProps {
 export const StyledWrapper = styled.div`
   display: ${(props: IWrapperProps) => props.display};
   flex-wrap: wrap;
-  flex-direction: ${(props: IWrapperProps) => props.flexDirection};
-  justify-content: ${(props: IWrapperProps) => props.justifyContent};
-  align-items: ${(props: IWrapperProps) => props.alignItems};
+  flex-direction: ${(props: IWrapperProps) => props.flexdirection};
+  justify-content: ${(props: IWrapperProps) => props.justifycontent};
+  align-items: ${(props: IWrapperProps) => props.alignitems};
   gap: ${(props: IWrapperProps) => props.gap};
   width: ${(props: IWrapperProps) => props.width};
   height: ${(props: IWrapperProps) => props.height};
   background-color: ${(props: IWrapperProps) => props.background};
   border: ${(props: IWrapperProps) => props.border};
-  border-radius: ${(props: IWrapperProps) => props.borderRadius};
+  border-radius: ${(props: IWrapperProps) => props.borderradius};
   padding: ${(props: IWrapperProps) => props.padding};
   z-index: ${(props: IWrapperProps) => props.zIndex};
   @media (max-width: 768px) {

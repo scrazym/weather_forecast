@@ -35,8 +35,8 @@ export const FullDescrText = () => {
       <StyledWrapperDiv
         width={"100%"}
         display={"flex"}
-        justifyContent={"left"}
-        alignItems={"center"}
+        justifycontent={"left"}
+        alignitems={"center"}
         gap={"25px"}
       >
         <StyledIconWrapper
@@ -54,8 +54,8 @@ export const FullDescrText = () => {
       <StyledWrapperDiv
         width={"100%"}
         display={"flex"}
-        justifyContent={"left"}
-        alignItems={"center"}
+        justifycontent={"left"}
+        alignitems={"center"}
         gap={"25px"}
       >
         <StyledIconWrapper
@@ -73,8 +73,8 @@ export const FullDescrText = () => {
       <StyledWrapperDiv
         width={"100%"}
         display={"flex"}
-        justifyContent={"left"}
-        alignItems={"center"}
+        justifycontent={"left"}
+        alignitems={"center"}
         gap={"25px"}
       >
         <StyledIconWrapper

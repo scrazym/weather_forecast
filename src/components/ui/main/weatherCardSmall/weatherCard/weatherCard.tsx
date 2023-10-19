@@ -21,6 +21,7 @@ export const WeatherCard = (props: H2Style) => {
 
   return (
     <Container>
+      <h1>d</h1>
       <Carousel
         ssr
         responsive={responsive}
@@ -49,12 +50,12 @@ export const WeatherCard = (props: H2Style) => {
               width={"120px"}
               height={"200px"}
               display={"flex"}
-              flexDirection={"column"}
-              justifyContent={"space-around"}
-              alignItems={"center"}
+              flexdirection={"column"}
+              justifycontent={"space-around"}
+              alignitems={"center"}
               gap={"5px"}
               background={`rgba(255, 255, 255, 0.45)`}
-              borderRadius={"7px"}
+              borderradius={"7px"}
               padding={"5px"}
               key={1}
             >
